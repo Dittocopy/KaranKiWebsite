@@ -9,6 +9,20 @@
     border-color: rgba(255, 87, 87, 1);    
 }
 
+/* scroll bar */
+
+body::-webkit-scrollbar{
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track{
+    background: whitesmoke;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #ff5757;
+}
+
 li, a, button{
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 500;
@@ -125,21 +139,20 @@ button:hover{
 
   .aboutus{
     display: flex;
-    margin: 0% 10%;
-
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 10%;
   }
 
-  .aboutus img{
-      max-width: 110vh;
-      max-height: 110vh;
-      margin: 10px;
+  .aboutus p {
+    display: flex;
+    flex-flow: column;
   }
 
-  .aboutus p{
-      margin-top: 7%;
+  .aboutus h2{
+     color: #ff5757;
+     text-align: center; 
   }
-
-
-
+  
 
 
