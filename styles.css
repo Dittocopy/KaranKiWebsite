@@ -2,11 +2,10 @@
 
 *{
     font-family: 'Noto Sans JP', sans-serif;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
-    border-color: rgba(255, 87, 87, 1);    
+    background-color: whitesmoke; 
 }
 
 /* scroll bar */
@@ -29,6 +28,7 @@ li, a, button{
     font-size: 18px;
     color: black;
     text-decoration: none;
+    
 }
 
 a{
@@ -41,10 +41,13 @@ header{
     align-content: center;
     align-items: center;
     padding: 10px 5%;
+    padding-bottom: 20px;
     list-style: none;
     border-style: solid;
-    border-color: white white black white;
+    border-color: transparent transparent black transparent;
     border-width: 1px;
+    margin: 10px 0px;
+    
 } 
 
 .logo{
@@ -58,16 +61,16 @@ header{
 
 .navlinks li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
 } 
 
 .navlinks li a{
     transition: all 0.2s ease 0s;
 }
 
-.navlinks li a:hover{
-    /* insert hover efects here */
-}
+/* .navlinks li a:hover{
+    /* insert hover efects here 
+} */
  
 
 
@@ -80,31 +83,33 @@ header{
 }
 
 button{
-    
     padding: 7px 20px;
-    background-color: rgba(220,20,60,0);
-    border: none;
-    border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    border-style: none;
+    
 }
 
 button:hover{
-    color: white;
-    background-color: rgba(255, 87, 87, 1);
+    box-shadow: 2px 7px 5px -2px rgba(110,109,109,0.56) inset;
+    -webkit-box-shadow: 2px 7px 5px -2px rgba(110,109,109,0.56) inset;
+    -moz-box-shadow: 2px 7px 5px -2px rgba(110,109,109,0.56) inset;
+
 }
+
 
 .btn{
-    color: white;
-    background-color: rgba(255, 87, 87, 1);
+    color: grey;
+    background-color: white;
     border-radius: 50px;
-    box-shadow: 2px 7px 5px -2px rgba(110,109,109,0.56);
-    -webkit-box-shadow: 2px 7px 5px -2px rgba(110,109,109,0.56);
-    -moz-box-shadow: 2px 7px 5px -2px rgba(110,109,109,0.56);
-      
-}
+    
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+                0 1px 3px 1px rgba(60, 64, 67, 0.149)
+    }
 
 .btn:hover{
+    color: white;
+    background-color: rgba(255, 87, 87, 1);
     box-shadow: 2px 7px 5px -2px rgba(110,109,109,0.56) inset;
     -webkit-box-shadow: 2px 7px 5px -2px rgba(110,109,109,0.56) inset;
     -moz-box-shadow: 2px 7px 5px -2px rgba(110,109,109,0.56) inset;
