@@ -1,25 +1,36 @@
-body{
+*{
+  text-decoration: none;
   margin: 0;
   padding: 0;
+}
+body{
+  margin: 10%;
+  padding: 0%;
   font-family: sans-serif;
-  background: #ffffff;
+  background: crimson;
 }
 .box{
-  width: 500px;
-  height: 400px;
-  padding: 40px;
+  width: 50%;
+  height: 50%;
+  padding: 10%;
   position: absolute;
   border-radius: 24px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  top: 5%;
+  left: 15%;
+  bottom: auto;
+  /* transform: translate(-50%,-50%); */
   background: #191919;
   text-align: center;
+}
+.inside{
+  display: flex;
+  flex-flow: column;
 }
 .box h1{
   color: white;
   text-transform: uppercase;
   font-weight: 500;
+  margin: 10px;
 }
 .box h3{
   color: white;
@@ -36,7 +47,7 @@ body{
   border:0;
   background: none;
   display: block;
-  margin: 20px auto;
+  margin: 5px auto;
   text-align: center;
   border: 2px solid #3498db;
   padding: 14px 10px;
@@ -48,7 +59,7 @@ body{
 }
 .box input[type = "text"]:focus,.box input[type = "password"]:focus{
   width: 280px;
-  border-color: #FF5757;
+  border-color: #FF5757; 
 }
 .box input[type = "submit"]{
   border:0;
@@ -64,11 +75,21 @@ body{
   transition: 0.25s;
   cursor: pointer;
 }
+
+.box input[type = "submit"]{
+  background: #FF5757;
+
+}
+
 .box input[type = "submit"]:hover{
   background: #FF5757;
 }
 
-/*.box container{
+div .otherlogins{
+  display: flex;
+  padding: 10px;
+}
+/* .box container{
   padding: 100px;
 }
 .box container line{
@@ -93,4 +114,4 @@ body{
  }
  .box container or{
    color: aliceblue;
- }*/
+ } */

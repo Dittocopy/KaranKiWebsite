@@ -1,3 +1,8 @@
+*{
+  text-decoration: none;
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -12,6 +17,7 @@ body{
     border-radius: 24px;
     top: 50%;
     left: 50%;
+    bottom: 0%;
     transform: translate(-50%,-50%);
     background: #191919;
     text-align: center;
@@ -31,6 +37,7 @@ body{
     color: #FF5757;
   }
   .box h4{
+    
     color: aliceblue;
   }
   .box h5{
@@ -77,5 +84,18 @@ body{
   }
   .box input[type = "submit"]:hover{
     background: #FF5757;
+  }
+
+  .check{
+    display: flex;
+    margin: 0% 10%;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    margin-left: 25%;
+  }
+
+  .checkbox{
+    margin-top: 7%;
+    margin-right: 2%;
   }
  
