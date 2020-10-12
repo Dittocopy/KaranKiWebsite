@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="SignUp.css">
+</head>
+<body>
+<div class="signupContainer">
+    <div class="signupContainerBox">
+        <div class="signupContainerButtons">
+            <div id="signupBtnOptionBox"></div>
+            <button type="button" class="signupToggleBtn" onclick="log()">Customer</button>
+            <button type="button" class="signupToggleBtn" id="chef" onclick="reg()">Chef</button>
+        </div>
+        <div class="signupSocialIcons">
+            <img src="./imgs/fb.png" alt="fb">
+            <img src="./imgs/ggl.png" alt="ggle">
+        </div>
+        <form id="login" class="signupInputGroup">
+            <input type="text" class="signupInputFeild" placeholder="User Id" required>
+            <input type="text" class="signupInputFeild" placeholder="Enter Password" required>
+            <input type="checkbox" class="signupInputCheckbox">
+            <span>Remember Password</span>
+            <button type="submit" class="signupSubmitBtn">Log In</button>
+        </form>
+
+        <!-- sign up form -->
+        <form id="reg" class="signupInputGroup">
+            <input type="text" class="signupInputFeild" placeholder="User Id" required>
+            <input type="text" class="signupInputFeild" placeholder="Email Id" required>
+            <input type="text" class="signupInputFeild" placeholder="Enter Password" required>
+            <input type="checkbox" class="signupInputCheckbox">
+            <span>I agree to the terms and conditions</span>
+            <button type="submit" class="signupSubmitBtn">Sign Up</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("reg");
+    var z = document.getElementById("signupBtnOptionBox");
+
+    function reg(){
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px";
+    }
+
+    function log(){
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0px";
+    }
+</script>
+
+</body>
+</html>
