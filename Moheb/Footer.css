@@ -1,35 +1,135 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 footer{
     margin: 0;
     padding: 0;
     text-decoration: none;
     background: whitesmoke;
     color: #ff5454;
-    text-align: justify;
+    width: 100%;
+    font-weight: 700 !important;
+    font-family: 'Roboto', sans-serif;
+    display: block;
 }
 
-img{
-    max-width: 50vh;
-}
-
-
-.footerborder > img{
-    max-width: 5vh;
-}
-
-ul > img{
-    max-width: 5vh;
-}
-
-
-.footeritems{
+.inner-footer{
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
     display: flex;
-    flex-flow: nowrap;
-    align-content: flex-end;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.footer-item{
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.footerh1{
+    padding: 10px 0;
+    font-size: 25px;
+    color: #ff5454;
+    text-transform: uppercase;
+}
+
+
+.footerh2{
+    margin: 10px 0;
+    color: grey;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+/* use only if want border under the top objects 
+.border{
+    height: 2px;
+    width: 40px;
+    background: #000;
+} */
+
+ul{
+    list-style: none;
+    color: #ff5757;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+
+ul a{
+    text-decoration: none;
+    outline: none;
+    color: #ff5757;
+    transition: 0.5s;
+}
+
+ul a:hover{
+    color: #ff9800;
+}
+
+ul li{
+    margin: 10px 0;
+    height: 25px;
+}
+
+li:hover{
+    list-style: disc;
+}
+
+li i{
+    margin-right: 20px;
+}
+
+.social-media{
+    width: 100%;
+    color: #ff5757;
+    text-align: center;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.social-media i{
+    height: 15px;
+    width: 15px;
+    margin: 20px 5px;
+    padding: 10px;
+    color: #ff7457;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.social-media i:hover{
+    background: grey;
+}
+
+.footerLogo{
+    max-width: 40vh;
+    margin-bottom: 10px;
 }
 
 
 
+.bottom{
+    padding: 10px;
+    background: #ff5757;
+    color: whitesmoke;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .footer-item{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1085px){
+    .footer-item{
+        width: 75%;
+    }
+}
