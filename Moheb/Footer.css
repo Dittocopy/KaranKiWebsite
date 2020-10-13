@@ -1,17 +1,18 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 footer{
     margin: 0;
     padding: 0;
     text-decoration: none;
     background: whitesmoke;
     color: #ff5454;
-    text-align: justify;
+    width: 100%;
+    font-weight: 700 !important;
+    font-family: 'Roboto', sans-serif;
+    display: block;
 }
 
-<<<<<<< HEAD
 .innerfooter{
     width: 95%;
     margin: auto;
@@ -27,22 +28,23 @@ footer{
     padding: 10px 20px;
     box-sizing: border-box;
 }
-=======
-img{
-    max-width: 50vh;
+
+/* .footerh1{
+    padding: 10px 0;
+    font-size: 25px;
+    color: #ff5454;
+    text-transform: uppercase;
 }
 
->>>>>>> parent of affcf6a... Footer
 
-.footerborder > img{
-    max-width: 5vh;
-}
+.footerh2{
+    margin: 10px 0;
+    color: grey;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+} */
 
-ul > img{
-    max-width: 5vh;
-}
-
-<<<<<<< HEAD
 /* use only if want border under the top objects 
 .border{
     height: 2px;
@@ -58,41 +60,48 @@ ul{
 }
 
 
-footer ul .fa{
+ul a{
     text-decoration: none;
     outline: none;
     color: #ff5757;
     transition: 0.5s;
 }
 
-footer ul a:hover{
+ul a:hover{
     color: #ff9800;
 }
 
-footer ul li{
+ul li{
     margin: 10px 0;
     height: 25px;
 }
 
-footer li:hover{
+li:hover{
     list-style: disc;
 }
 
-footer li .fa{
+li i{
     margin-right: 20px;
 }
 
-.footersocialmedia{
+.socialmedia{
     width: 100%;
     color: #ff5757;
     text-align: center;
 }
 
-.footersocialmedia a {
+.socialmedia a {
     text-decoration: none;
+    /* background: #000; */
 }
 
-.footersocialmedia i{
+/* ul li i{
+    color: #ff5757;
+    background-color: dodgerblue;
+} */
+
+.socialmedia i{
+    background: #000;
     height: 15px;
     width: 15px;
     margin: 20px 5px;
@@ -102,25 +111,17 @@ footer li .fa{
     transition: 0.3s;
 }
 
-.footersocialmedia i:hover{
+.socialmedia i:hover{
     background: grey;
 }
 
 .footerLogo{
-    max-width: 40vh;
+    max-width: 35vh;
     margin-bottom: 10px;
-=======
-
-.footeritems{
-    display: flex;
-    flex-flow: nowrap;
-    align-content: flex-end;
->>>>>>> parent of affcf6a... Footer
 }
 
 
 
-<<<<<<< HEAD
 .footerbottom{
     padding: 10px;
     background: #ff5757;
@@ -130,7 +131,7 @@ footer li .fa{
 }
 
 @media screen and (max-width: 600px){
-    .footeritem{
+    .footer-item{
         width: 100%;
     }
 }
@@ -139,5 +140,3 @@ footer li .fa{
         width: 75%;
     }
 }
-=======
->>>>>>> parent of affcf6a... Footer
