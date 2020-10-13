@@ -1,18 +1,17 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
 footer{
     margin: 0;
     padding: 0;
     text-decoration: none;
     background: whitesmoke;
     color: #ff5454;
-    width: 100%;
-    font-weight: 700 !important;
-    font-family: 'Roboto', sans-serif;
-    display: block;
+    text-align: justify;
 }
 
+<<<<<<< HEAD
 .innerfooter{
     width: 95%;
     margin: auto;
@@ -28,23 +27,22 @@ footer{
     padding: 10px 20px;
     box-sizing: border-box;
 }
-
-.footerh1{
-    padding: 10px 0;
-    font-size: 25px;
-    color: #ff5454;
-    text-transform: uppercase;
+=======
+img{
+    max-width: 50vh;
 }
 
+>>>>>>> parent of affcf6a... Footer
 
-.footerh2{
-    margin: 10px 0;
-    color: grey;
-    font-size: 16px;
-    font-weight: lighter;
-    text-transform: uppercase;
+.footerborder > img{
+    max-width: 5vh;
 }
 
+ul > img{
+    max-width: 5vh;
+}
+
+<<<<<<< HEAD
 /* use only if want border under the top objects 
 .border{
     height: 2px;
@@ -111,10 +109,18 @@ footer li .fa{
 .footerLogo{
     max-width: 40vh;
     margin-bottom: 10px;
+=======
+
+.footeritems{
+    display: flex;
+    flex-flow: nowrap;
+    align-content: flex-end;
+>>>>>>> parent of affcf6a... Footer
 }
 
 
 
+<<<<<<< HEAD
 .footerbottom{
     padding: 10px;
     background: #ff5757;
@@ -133,3 +139,5 @@ footer li .fa{
         width: 75%;
     }
 }
+=======
+>>>>>>> parent of affcf6a... Footer
