@@ -13,7 +13,7 @@ footer{
     display: block;
 }
 
-.inner-footer{
+.innerfooter{
     width: 95%;
     margin: auto;
     padding: 30px 10px;
@@ -23,7 +23,7 @@ footer{
     justify-content: center;
 }
 
-.footer-item{
+.footeritem{
     width: 25%;
     padding: 10px 20px;
     box-sizing: border-box;
@@ -60,41 +60,41 @@ ul{
 }
 
 
-ul a{
+footer ul .fa{
     text-decoration: none;
     outline: none;
     color: #ff5757;
     transition: 0.5s;
 }
 
-ul a:hover{
+footer ul a:hover{
     color: #ff9800;
 }
 
-ul li{
+footer ul li{
     margin: 10px 0;
     height: 25px;
 }
 
-li:hover{
+footer li:hover{
     list-style: disc;
 }
 
-li i{
+footer li .fa{
     margin-right: 20px;
 }
 
-.social-media{
+.footersocialmedia{
     width: 100%;
     color: #ff5757;
     text-align: center;
 }
 
-.social-media a {
+.footersocialmedia a {
     text-decoration: none;
 }
 
-.social-media i{
+.footersocialmedia i{
     height: 15px;
     width: 15px;
     margin: 20px 5px;
@@ -104,7 +104,7 @@ li i{
     transition: 0.3s;
 }
 
-.social-media i:hover{
+.footersocialmedia i:hover{
     background: grey;
 }
 
@@ -115,7 +115,7 @@ li i{
 
 
 
-.bottom{
+.footerbottom{
     padding: 10px;
     background: #ff5757;
     color: whitesmoke;
@@ -124,7 +124,7 @@ li i{
 }
 
 @media screen and (max-width: 600px){
-    .footer-item{
+    .footeritem{
         width: 100%;
     }
 }

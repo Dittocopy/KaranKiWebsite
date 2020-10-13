@@ -5,7 +5,7 @@
     /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
-    background-color: whitesmoke; 
+    /* background-color: whitesmoke;  */
 }
 
 /* scroll bar */
@@ -37,7 +37,7 @@ a{
 
 header{
     display: flex;
-    
+    background: whitesmoke;
     justify-content: flex-end;
     align-content: center;
     align-items: center;
@@ -163,5 +163,63 @@ button:hover{
      text-align: center; 
   }
   
+
+  .carousel{
+    display: flex;
+    align-self: flex-end;
+    margin: 10px 1%;
+    background: #ff5757;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+}
+
+.carouselreview{
+    margin: 2% auto;
+    position: relative;
+}
+
+.carouselarrowleft{
+    position: absolute;
+    top: 40%;
+    margin: auto;
+    /* margin-right: 100%;     */
+}
+
+.carouselarrowleft > img{
+    max-width: 10vh;
+}
+
+.carouselarrowright{
+    position: absolute;
+    top: 40%;
+    margin: auto;
+    right: 0%
+}
+
+.carouselarrowright > img{
+    max-width: 10vh;
+    transform: rotate(180deg);
+}
+
+.carouselreviewheading{
+    margin: 25px auto;
+    text-align: center;
+}
+
+.carouselmainreview{
+    text-align: center;
+    margin: 1%  10%;
+}
+
+.carouselstars{
+    text-align: center;
+    margin: 2% auto;
+}
+
+.carouselreviewername{
+    text-align: center;
+    margin: 3%
+}
 
 
