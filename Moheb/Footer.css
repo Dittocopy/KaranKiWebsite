@@ -2,10 +2,33 @@
     margin: 0;
     padding: 0;
 }
+footer{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background: whitesmoke;
+    color: #ff5454;
+    text-align: justify;
+}
 
 img{
-    max-width: 30vh;
-    background: black;
+    max-width: 50vh;
+}
+
+
+.footerborder > img{
+    max-width: 5vh;
+}
+
+ul > img{
+    max-width: 5vh;
+}
+
+
+.footeritems{
+    display: flex;
+    flex-flow: nowrap;
+    align-content: flex-end;
 }
 
 
