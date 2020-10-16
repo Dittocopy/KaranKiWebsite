@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 
 *{
     font-family: 'Noto Sans JP', sans-serif;
@@ -224,11 +222,11 @@ button:hover{
     margin: 3%
 }
 
+
 /* footer css */
 
 
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 footer{
     margin: 0;
@@ -315,7 +313,7 @@ footer{
 
 .footersocialmedia{
     width: 100%;
-    color: #ff5757;
+    color: #ff5757 !important;
     text-align: center;
 }
 

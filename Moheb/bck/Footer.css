@@ -23,11 +23,6 @@ footer{
     justify-content: center;
 }
 
-.footercontact .fa{
-    list-style: none;
-    margin: 10px 0px;
-}
-
 .footeritem{
     width: 25%;
     padding: 10px 20px;
@@ -56,7 +51,8 @@ footer{
     width: 40px;
     background: #000;
 } */
-.footerul{
+
+footer ul{
     list-style: none;
     color: #ff5757;
     font-size: 15px;
@@ -64,23 +60,27 @@ footer{
 }
 
 
-.footerul .a{
+footer ul a{
     text-decoration: none;
     outline: none;
     color: #ff5757;
     transition: 0.5s;
 }
-.footerul .a:hover{
+
+footer ul a:hover{
     color: #ff9800;
 }
-.footerul .li{
+
+footer ul li{
     margin: 10px 0;
     height: 25px;
 }
-.li:hover{
+
+footer li:hover{
     list-style: disc;
 }
-.li .fa{
+
+footer li i{
     margin-right: 20px;
 }
 
@@ -95,22 +95,23 @@ footer{
     /* background: #000; */
 }
 
-/* ul li .fa{
+/* ul li i{
     color: #ff5757;
     background-color: dodgerblue;
 } */
 
-.footersocialmedia .fa{
+.footersocialmedia i{
+    background: #000;
     height: 15px;
     width: 15px;
-    margin: 5px 5px;
+    margin: 20px 5px;
     padding: 10px;
     color: #ff7457;
     border-radius: 50%;
     transition: 0.3s;
 }
 
-.footersocialmedia .fa:hover{
+.footersocialmedia i:hover{
     background: grey;
 }
 
@@ -129,15 +130,13 @@ footer{
     text-align: center;
 }
 
-@media screen and (max-width: 1085px){
-    .footeritem{
-        width: 50%;
-    }
-}
-
 @media screen and (max-width: 600px){
-    .footeritem{
+    .footer-item{
         width: 100%;
     }
 }
-
+@media screen and (max-width: 1085px){
+    .footer-item{
+        width: 75%;
+    }
+}
