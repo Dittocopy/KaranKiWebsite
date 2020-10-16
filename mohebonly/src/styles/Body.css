@@ -1,0 +1,41 @@
+.banner{
+    position: relative;
+    margin: 0px 10%;
+  }
+.banner img{
+    max-width: 100%;
+  }
+.banner .welcome{
+    color:#ff5757;
+    font-weight: 500;
+    background-color: transparent;
+    padding: 30px;
+    font-size: 60px;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    text-shadow: 3px 3px 0px white;
+  } 
+  
+/* .banner .welcome span{
+    font-size: 1.4em;
+  } */
+
+  /* abouts us section */
+
+  .aboutus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 10%;
+  }
+
+  .aboutus p {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .aboutus h2{
+     color: #ff5757;
+     text-align: center; 
+  }
