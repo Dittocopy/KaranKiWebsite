@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #ff5757;
+  }
+.box{
+    height: max-content;
+    width: max-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
+    border-radius: 24px;
+    background: #ffffff;
+    margin: auto;
+    margin-top: 8%;
+    padding: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+  text-align: center;
+}
+.radio-buttons {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .custom-radio input {
+    display: none;
+  }
+
+  .radio-btn {
+    margin: 10px;
+    width: 80px;
+    height: 40px;
+    border: 3px solid transparent;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 15px #292828;
+    cursor: pointer;
+  }
+
+  .radio-btn > i {
+    color: #ffffff;
+    background-color: #ff5757;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%) scale(4);
+    border-radius: 500px;
+    padding: 3px;
+    transition: 0.2s;
+    pointer-events: none;
+    opacity: 0;
+  }
+
+  .radio-btn .hobbies-icon {
+    width: 80px;
+    height: 45px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .radio-btn .hobbies-icon h2 {
+    color: #ff5757;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: unset;
+    text-transform: uppercase;
+  }
+
+  .custom-radio input:checked + .radio-btn {
+    border: 3px solid #ff5757;
+  }
+
+  .custom-radio input:checked + .radio-btn > i {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+
+  .email{
+    width: 50%;
+    padding: 10px 0px;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    align-items: center;
+}
+
+.emails{
+  text-align: center;
+}
+
+.submit{
+  border:0;
+  font-size: 1rem;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #FF5757;
+  padding: 14px 40px;
+  outline: none;
+  color:#292828;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.submit:hover{
+  background: #FF5757;
+  color: #ffffff;
+}
