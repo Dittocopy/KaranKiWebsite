@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-footer{
+.footer{
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -90,7 +90,7 @@ footer{
     text-align: center;
 }
 
-.footersocialmedia a {
+.footersocialmedia .a {
     text-decoration: none;
     /* background: #000; */
 }

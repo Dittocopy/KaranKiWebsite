@@ -1,6 +1,6 @@
 import React from 'react'
-import './styles/Carousel.css'
-import arrow from './index and footer/images/arrow.png';
+import '../styles/Carousel.css'
+import arrow from '../index and footer/images/arrow.png';
 
 function Carousel() {
     return (

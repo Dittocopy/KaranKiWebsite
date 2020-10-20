@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './Header';
+import Header from './partials/Header';
 import Body from './Body';
-import Carousel from './Carousel';
-import Footer from './Footer';
+import Carousel from './partials/Carousel';
+import Footer from './partials/Footer';
 import './styles/App.css';
 
 function App() {

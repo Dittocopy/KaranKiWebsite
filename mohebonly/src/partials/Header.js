@@ -1,6 +1,6 @@
 import React from 'react'
-import img from './index and footer/images/Logosm.png';
-import './styles/Header.css';
+import img from '../index and footer/images/Logosm.png';
+import '../styles/Header.css';
 
 function header() {
     return (
